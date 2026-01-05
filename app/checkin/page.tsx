@@ -5,7 +5,7 @@ import { getDistance } from '@/utils/distance';
 
 // チェックポイントの設定（本来はDB等から取得）
 const CHECKPOINTS = {
-  '1': { name: '東京タワー', lat: 35.6586, lng: 139.7454, radius: 50 }, // 半径50m
+  '1': { name: '松濤ハイツ', lat: 35.6577, lng: 139.6913, radius: 10 }, // 半径10m
 };
 
 export default function CheckInPage() {
